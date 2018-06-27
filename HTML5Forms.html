@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>HTML Forms</title>
+</head>
+<body>
+	<form action="contact_form.php" method="get">
+
+		<label form="name">Name:</label>
+
+		<input type="text" name="name" placeholder="Makena Lelepali, etc" required="name" =><br>
+
+		Email: <input type="text" name="email" placeholder="makena@lelepali.com" required="email"><br>
+
+		<label form="subject">Subject:</label>
+
+		<input type="text" name="subject" placeholder="Inquiries, etc" required="name" =><br>
+
+		<label for="message">Message:</label><br>
+		<textarea name="message" rows="15" cols="100" required="message"></textarea><br>
+
+		<hr>
+
+		<label for="radio">This Message is Pertaining to:</label> <br>
+		<input type="radio" name="options" value="Business"> Business<br>
+
+		<input type="radio" name="options" value="School"> School <br>
+
+		<input type="radio" name="options" value="Personal"> Personal<br>
+
+		<input type="radio" name="options" value="Other"> Other<br>
+
+		<input type="submit" value="Send Contact Request">
+	</form>
+</body>
+</html>
